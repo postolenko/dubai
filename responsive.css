@@ -1,30 +1,846 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1400px) {
 
+/*-- Section 1 - Main Page --*/
 
+.promo {
+    margin: 0 25px;
+    padding: 49px 25px;
+    min-height: 590px;
+}
+
+.thumb {
+    padding: 10px 25px 3px 25px;
+}
+
+.thumb .icon_wrapp {
+    margin: 5px auto;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_descript h2 {
+    font-size: 43px;
+}
+
+.article_2_img {
+    min-height: 500px;
+}
+
+/*-- /Section 4 - Main Page --*/
 
 }
 
+@media only screen and (max-width: 1240px) {
+
+h2 {
+    font-size: 55px;
+    line-height: 62px;
+}
+
+/*-- Header --*/
+
+.header_site > .left {
+    padding: 5px 10px 5px 0;
+}
+
+.header_site > .center {
+    padding: 5px 10px;
+}
+
+.header_site > .right {
+    padding: 5px 0 5px 10px;
+}
+
+.main_nav li {
+    padding: 5px 15px;
+}
+
+.soc_list {
+    margin: 6px -10px;
+}
+
+.soc_list li {
+    padding: 5px 10px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 3 - Main Page --*/
+
+.sect_3 {
+    padding: 60px 0 12px 0;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.tab_link {
+    padding: 15px 20px;
+    font-size: 19px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.catalog_thumb {
+    padding: 15px 15px 15px 15px;
+}
+
+.catalog_thumb h3 {
+    padding: 5px 0;
+    font-size: 21px;
+}
+
+.catalog_thumb p {
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+/*-- /Section 7 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+h1 {
+    font-size: 49px;
+    line-height: 57px;
+}
+
+/*-- Header --*/
+
+.novisile_1024 {
+	display: none;
+}
+
+.header_site > .left {
+    width: 110px;
+}
+
+.header_site > .center {
+    width: calc(68% - 110px);
+}
+
+.header_site > .right {
+    width: 32%;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.thumb h3 {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.article_left h3 {
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.article_left p {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.transparent_pill {
+    min-height: 56px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.article_left {
+    padding: 30px 4% 30px 0;
+}
+
+.article_left .transparent_pill {
+    margin-top: 25px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.transparent_pill_2 {
+    min-height: 56px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.article_descript .transparent_pill_2 {
+    margin: 20px 0 10px 0;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.tab_link_2 {
+    min-height: 35px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.slider_2_wrapp {
+    height: 400px;
+}
+
+.slider_2 {
+    margin: 0 25px;
+    height: 400px;
+}
+
+.slide_2 {
+    height: 400px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.thumb_2 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 80px 0 60px 0;
+}
+
+.contact_thumb {
+    width: calc(50% - 20px);
+}
+
+/*-- /Footer --*/
+
+}
 
 @media only screen and (max-width: 900px) {
 
+h2 {
+    font-size: 46px;
+    line-height: 56px;
+}
 
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    min-height: 430px;
+}
+
+.thumbs {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.thumb {
+    width: 50%;
+}
+
+.thumb:nth-child(even) {
+	border-right: none;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumb_card {
+    min-height: 388px;
+}
+
+.thumb_two_cols {
+    padding: 0 25px 3px 25px;
+}
+
+.thumb_card .img_box {
+    height: 205px;
+}
+
+.thumb_content {
+    padding-top: 18px;
+}
+
+.thumb_two_cols p {
+    padding-bottom: 14px;
+    font-size: 19px;
+}
+
+.thumb_two_cols > div:nth-child(2) p {
+    font-size: 20px;
+}
+
+.thumb_footer {
+    padding: 12px 20px 10px 20px;
+}
+
+.light_pill {
+    min-height: 48px;
+    font-size: 17px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_2 {
+	position: relative;
+}
+
+.article_2 > .left_col {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    padding: 20px 20px;
+}
+
+.article_2 > .right_col {
+	width: 100%;
+	height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.article_2_img {
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.article_2_img:before {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, .95);
+	z-index: 2;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.slider_2 {
+    margin: 0 15px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.testimonial {
+    min-height: 370px;
+    padding: 15px 10% 15px 10%;
+}
+
+.testimonial .img_box {
+    margin: 6px auto 10px auto;
+}
+
+.testimonial_title {
+    margin-bottom: 10px
+}
+
+.testimonial_content p {
+    font-size: 17px;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.sect_7 {
+    padding: 30px 0 40px 0;
+}
+
+.catalog_article {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.catalog_article > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.catalog_article > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Section 7 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+.row {
+    padding: 0 15px;
+}
 
+.visile_767 {
+	display: block;
+}
+
+.wrapper {
+    padding-top: 66px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 52px;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 51px;
+}
+
+/*-- Header --*/
+
+.header_site_templ {
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 3px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.header_site {
+	position: relative;
+	padding-right: 50px;
+}
+
+.header_site > .left {
+    width: 110px;
+}
+
+.header_site > .center {
+	width: 0;
+	padding: 0;
+}
+
+.header_site > .right {
+    width: calc(100% - 110px);
+}
+
+.respmenubtn {
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+
+#resp_nav {
+	/*display: block;*/
+	display: none;
+	max-width: 100vw;
+	width: 100vw;
+	height: calc(100vh - 59px);
+    overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	padding: 60px 10px 50px 10px;
+	position: fixed;
+	top: 59px;
+	left: 0;
+	z-index: 13;
+	background: #fff;
+}
+
+.main_nav {
+	display: block;
+}
+
+.main_nav li {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.main_nav li a {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.beige_pill {
+    padding: 5px 20px;
+    min-height: 41px;
+    font-size: 15px;
+}
+
+.logo {
+    max-width: 84px;
+}
+
+.soc_list_resp {
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.inlines {
+    margin: 0 -10px;
+}
+
+.inlines > div {
+    padding: 2px 10px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.tags_list li {
+    font-size: 15px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.sect_bg:before {
+	width: 100%;
+}
+
+.article_left {
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.tab_link {
+    padding: 7px 7px;
+    font-size: 19px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.sect_5 {
+    padding: 30px 0 30px 0;
+}
+
+.slider_2_wrapp {
+    height: 330px;
+}
+
+.slider_2 {
+    height: 330px;
+}
+
+.slide_2 {
+    height: 330px;
+}
+
+.slider_2 .slick-prev {
+    left: 20px;
+}
+
+.slider_2 .slick-next {
+    right: 20px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.testimonial {
+    min-height: 370px;
+    padding: 15px 4% 15px 4%;
+}
+
+.testimonial_title h3 {
+    font-size: 20px;
+}
+
+.testimonial_content p {
+    font-size: 15px;
+}
+
+/*-- /Section 7 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.sect_8 {
+    padding: 13px 0 40px 0;
+}
+
+.sect_8_2 {
+    padding: 50px 0 45px 0;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 9 - Main Page --*/
+
+.map {
+    height: 400px;
+}
+
+#map {
+    height: 400px;
+}
+
+/*-- /Section 9 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+/*-- Section 2 - Main Page --*/
 
+.article_left h3 {
+    font-size: 20px;
+}
+
+.article_left p {
+    font-size: 16px;
+}
+
+.article_left .transparent_pill {
+    margin-top: 20px;
+}
+
+.transparent_pill {
+    min-height: 48px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_2 {
+    margin: 36px 0 18px 0;
+}
+
+.article_descript h2 {
+	padding: 10px 0 10px 0;
+    font-size: 30px;
+}
+
+.article_descript p {
+    padding: 9px 0 9px 0;
+    font-size: 17px;
+}
+
+.transparent_pill_2 {
+    min-height: 48px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.tab_link_2 {
+    padding: 5px 13px;
+    font-size: 14px;
+}
+
+.slider_2 .slick-prev {
+    left: -7px;
+}
+
+.slider_2 .slick-next {
+    right: -7px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 50px 0 30px 0;
+}
+
+.contacts_thumbs {
+    margin: 27px 0;
+}
+
+.contact_thumb {
+    width: 100%;
+    min-height: 120px;
+    margin: 10px 0;
+}
+
+.contact_thumb p {
+    font-size: 20px;
+}
+
+/*-- /Footer --*/
 
 }
 
 
 @media only screen and (max-width: 480px) {
 
-	
+	h1 {
+	    font-size: 27px;
+	    line-height: 48px;
+	}
+
+	h2 {
+	    font-size: 25px;
+	    line-height: 40px;
+	}
+
+	/*-- Header --*/
+
+	.header_site {
+	    padding-right: 30px;
+	}
+
+	.header_site > .left {
+	    width: 100px;
+	}
+
+	.header_site > .right {
+	    width: calc(100% - 100px);
+	}
+
+	.respmenubtn {
+	    right: -16px;
+	}
+
+	.beige_pill {
+	    padding: 5px 6px;
+	    min-height: 41px;
+	    font-size: 14px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 - Main Page --*/
+
+	.promo {
+	    margin: 0 15px;
+	    padding: 15px 15px;
+	}
+
+	.tags_list li {
+	    font-size: 13px;
+	}
+
+	.thumbs {
+	    top: 10px;
+	}
+
+	 /*-- /Section 1 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.sect_3 {
+	    padding: 30px 0 12px 0;
+	}
+
+	.thumb_two_cols {
+	    padding: 0 15px 3px 15px;
+	}
+
+	.thumb_two_cols p.grey_p {
+	    font-size: 15px;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 5 - Main Page --*/
+
+	.sect_5 {
+	    padding: 10px 0 10px 0;
+	}
+
+	.tab_list_2 {
+	    margin-top: 21px;
+	}
+
+	.tab_list_2 li {
+	    padding: 1px;
+	}
+
+	/*-- /Section 5 - Main Page --*/
+
+	/*-- Section 7 - Main Page --*/
+
+	.sect_7 {
+	    padding: 17px 0 16px 0;
+	}
+
+	.catalog_thumbs {
+		margin: 0;
+	}
+
+	.catalog_thumbs .catalog_thumb {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 7 - Main Page --*/
+
+	/*-- Section 8 - Main Page --*/
+
+	.thumbs_2 {
+	    margin: 20px 0;
+	}
+
+	.thumb_2 {
+	    width: 100%;
+	}
+
+	/*-- /Section 8 - Main Page --*/
+
+
+}
+
+@media only screen and (max-width: 390px) {
+
+	/*-- Section 1 - Main Page --*/
+
+	.thumb {
+	    padding: 10px 10px 3px 10px;
+	}
+
+	.thumb p {
+	    padding: 8px 0;
+	    font-size: 14px;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
+}
+
+@media only screen and (min-width: 768px) {
+	#resp_nav {
+		display: block !important;
+	}
 }
