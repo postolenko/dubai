@@ -177,4 +177,20 @@ $(document).ready(function() {
       }
   });
 
+  // ------------
+
+  $('a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+    var hrefAttr = $(this).attr("href");
+    if( hrefAttr.length > 0 && hrefAttr != "#" ) {
+        $('html, body').stop().animate({
+            'scrollTop': $(hrefAttr).offset().top+2
+        }, 500);
+    }
+    if($("#resp_nav").is(":visible") && bodyWidth <= 767) {
+      $("#resp_nav").fadeOut(300);
+      $(".respmenubtn").removeClass("active");
+    }
+  });
+
 });
