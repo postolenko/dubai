@@ -55,28 +55,6 @@ $(document).ready(function() {
       });
     }
 
-    if( $(".testimonials_slider").length > 0 ) {
-      $(".testimonials_slider").not(".slick-initialized").slick({
-          dots: false,
-          arrows: false,
-          autoplay: true,
-          autoplaySpeed: 4000,
-          speed: 1200,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          // fade: true,
-          responsive: [
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      });
-    }
-
     // ----------------
 
     $(".tab_link").click(function(e) {
