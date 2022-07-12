@@ -558,7 +558,9 @@
 		<!-- Section 9 - Main Page -->
 		<section>
 			<div class="map">
-				<div id="map"></div>
+				<img src="img/map.jpg" alt="" />
+				<!-- <div id="map" data-lat="<? echo $latitude ?>" data-lang="<? echo $longitude ?>" data-zoom="<? echo $zoom ?>"></div> -->
+				<!-- <div id="map" data-lat="37.7875487" data-lang="-122.4471158" data-zoom="10"></div> -->
 			</div>
 		</section>
 		<!-- /Section 9 - Main Page -->
@@ -664,6 +666,8 @@
 	<script src="vendors/js/jquery.js"></script>
 	<script src="slick/slick.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU"></script>
+	<script src="js/map.js"></script>
 
 </body>
 </html>

@@ -1788,11 +1788,15 @@ textarea:focus {
 /*-- Section 9 - Main Page --*/
 
 .map {
-    outline: 1px solid red;
+    overflow: hidden;
 }
 
 #map {
     height: 600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
 }
 
 /*-- /Section 9 - Main Page --*/
