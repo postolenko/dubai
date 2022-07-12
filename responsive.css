@@ -342,7 +342,7 @@ h2 {
 }
 
 .wrapper {
-    padding-top: 66px;
+    padding-top: 59px;
 }
 
 h1 {
@@ -360,12 +360,15 @@ h2 {
 .header_site_templ {
 	width: 100%;
 	padding-top: 0;
-	padding-bottom: 3px;
+	padding-bottom: 0;
 	background: #fff;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
+	-webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+	-moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
 }
 
 .header_site {
@@ -433,6 +436,7 @@ h2 {
 
 .logo {
     max-width: 84px;
+    height: 48px;
 }
 
 .soc_list_resp {
@@ -451,6 +455,10 @@ h2 {
 /*-- /Header --*/
 
 /*-- Section 1 - Main Page --*/
+
+.sect_1 {
+	padding-top: 20px;
+}
 
 .tags_list li {
     font-size: 15px;

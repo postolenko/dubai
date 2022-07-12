@@ -440,6 +440,7 @@ textarea:focus {
 .logo {
     display: inline-block;
     vertical-align: top;
+    height: 63px;
 }
 
 .logo img {
@@ -447,10 +448,7 @@ textarea:focus {
     width: auto;
     height: auto;
     max-width: 100%;
-}
-
-.main_nav_wrapp {
-
+    max-height: 100%;
 }
 
 .main_nav {
