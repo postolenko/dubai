@@ -456,10 +456,6 @@ h2 {
 
 /*-- Section 1 - Main Page --*/
 
-.sect_1 {
-	padding-top: 20px;
-}
-
 .tags_list li {
     font-size: 15px;
 }
@@ -731,6 +727,13 @@ h2 {
 
 	/*-- /Section 8 - Main Page --*/
 
+	/*-- Section 10 - Main Page --*/
+
+	.callback_box p {
+	    font-size: 20px;
+	}
+
+	/*-- /Section 10 - Main Page --*/
 
 }
 

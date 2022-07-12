@@ -1620,6 +1620,26 @@ textarea:focus {
     margin: 30px 0;
 }
 
+.logo_2_wrapp {
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+.logo_2 {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 300px;
+}
+
+.logo_2 img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
 /*-- /Section 8 - Main Page --*/
 
 /*-- Section 9 - Main Page --*/
